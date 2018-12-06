@@ -1,0 +1,36 @@
+import:
+- package: github.com/shiena/ansicolor
+  version: a422bbe96644373c5753384a59d678f7d261ff10
+- package: golang.org/x/net
+  subpackages:
+  - html/atom
+  - html
+  version: 455220fa52c866a8aa14ff5e8cc68cde16b8395e
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert
+  version: f6abca593680b2315d2075e0f5e2a9751e3f431a
+- package: github.com/pmezard/go-difflib
+  subpackages:
+  - difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+- package: github.com/davecgh/go-spew
+  subpackages:
+  - spew
+  version: 782f4967f2dc4564575ca782fe2d04090b5faca8
+- package: github.com/jmespath/go-jmespath
+  version: bd40a432e4c76585ef6b72d3fd96fb9b6dc7b68d
+- package: github.com/gucumber/gucumber
+  subpackages:
+  - gherkin
+  version: 5903a8deba47bd11299556c6151b3cbe0fbec3d4
+- package: golang.org/x/tools
+  subpackages:
+  - go/ast/astutil
+  - go/buildutil
+  - go/loader
+  version: e6cb469339aef5b7be0c89de730d5f3cc8e47e50
+- package: github.com/go-ini/ini
+  version: d3de07a94d22b4a0972deb4b96d790c2c0ce8333
+package: github.com/aws/aws-sdk-go
+
